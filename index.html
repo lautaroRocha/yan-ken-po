@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="board">
+        <div class="top">
+            <div class="top-p1">
+                <p>
+                    p1
+                </p>
+                <span id="move-p1">
+                    ???
+                </span>
+            </div>
+            <div class="top-resultado" id="resultado">
+                yan-ken-po
+            </div>
+            <div class="top-cpu">
+                <p>
+                    cpu
+                </p>
+                <span id="move-cpu">
+                    ???
+                </span>
+            </div>
+        </div>
+        <div class="bott">
+            <div class="bott-p1" id="p1-score">
+                0
+            </div>
+            <div class="bott-next">
+                <p>siguiente jugada</p>
+                <div class="bott-next-opt">
+                    <button id="piedra"  class="opciones">PDR</p>
+                    <button id="papel"  class="opciones">PPL</p>
+                    <button id="tijera"  class="opciones">TJR</p>
+                </div>
+            </div>
+            <div class="bott-cpu" id="cpu-score">
+                0
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
